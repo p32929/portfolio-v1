@@ -26,6 +26,7 @@ const styles = theme => ({
     },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
+        backgroundColor: '#4CAF50'
     },
     drawer: {
         width: drawerWidth,

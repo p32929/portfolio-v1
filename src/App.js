@@ -6,7 +6,7 @@ import {createMuiTheme, MuiThemeProvider} from '@material-ui/core';
 const theme = createMuiTheme({
     typography: {
         useNextVariants: true,
-        fontFamily: 'Muli'
+        fontFamily: 'Muli',
     },
 });
 
