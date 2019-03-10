@@ -36,6 +36,15 @@ export var languages = [
         title: 'UNIX',
         logo: 'https://visualpharm.com/assets/795/Unix-595b40b85ba036ed117dad11.svg',
     },
+    {
+        title: 'VBScript',
+        logo: 'https://banner2.kisspng.com/20180409/cxe/kisspng-vbscript-scripting-language-visual-basic-microsoft-analyst-5acc162b6da676.9666584115233244594491.jpg',
+    },
+    {
+        title: 'Batch',
+        logo: 'https://cdn0.iconfinder.com/data/icons/software-4/24/console_command_prompt_shell_program-512.png',
+    },
+
 
 ]
 
@@ -47,6 +56,10 @@ export var frameworks = [
     {
         title: 'NodeJS',
         logo: 'https://visualpharm.com/assets/393/Nodejs-595b40b85ba036ed117da6cc.svg'
+    },
+    {
+        title: 'ExpressJS',
+        logo: 'https://seeklogo.com/images/E/express-logo-E9DA5D0AF7-seeklogo.com.png'
     },
     {
         title: 'npm',

@@ -2,6 +2,11 @@ export var email = 'p32929@gmail.com'
 
 export var socialLinks = [
     {
+        title: 'Fiverr',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fiverr_logo.svg/535px-Fiverr_logo.svg.png',
+        link: 'https://www.fiverr.com/fayazbinsalam'
+    },
+    {
         title: 'Skype',
         logo: 'https://image.flaticon.com/icons/svg/174/174869.svg',
         link: 'p32929'
