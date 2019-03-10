@@ -14,10 +14,10 @@ const styles = theme => ({
 const Projects = (props) => (
     <Grid>
         <WorksGridItems name='Android Apps' list={androidApps} marginTop={0}/>
-        <WorksGridItems name='Android Libraries' list={androidLibs} marginTop={32}/>
-        <WorksGridItems name='Desktop Apps' list={desktopApps} marginTop={32}/>
-        <WorksGridItems name='Web Apps' list={webApps} marginTop={32}/>
-        <WorksGridItems name='Others' list={others} marginTop={32}/>
+        <WorksGridItems name='Android Libraries' list={androidLibs} marginTop={16}/>
+        <WorksGridItems name='Desktop Apps' list={desktopApps} marginTop={16}/>
+        <WorksGridItems name='Web Apps' list={webApps} marginTop={16}/>
+        <WorksGridItems name='Others' list={others} marginTop={16}/>
     </Grid>
 )
 

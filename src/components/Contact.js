@@ -22,9 +22,9 @@ const Contact = (props) => (
             </Typography>
         </Paper>
 
-        <SocialLinks name='My Other Social Links' list={socialLinks} marginTop={32}/>
+        <SocialLinks name='My Other Social Links' list={socialLinks} marginTop={16}/>
 
-        <Paper style={{padding: 16, marginTop: 32}}>
+        <Paper style={{padding: 16, marginTop: 16}}>
             Add me anywhere by this ID (If I registered there)
             <Typography>
                 p32929
