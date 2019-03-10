@@ -50,7 +50,7 @@ const Home = (props) => (
                 justify="center"
                 alignItems="center">
 
-                <Avatar alt="Fayaz Bin Salam" src="/profile_pic.jpg"
+                <Avatar alt="Fayaz Bin Salam" src="https://i.imgur.com/nRNlRdL.jpg"
                         style={style.avatar}/>
 
                 <Grid container
