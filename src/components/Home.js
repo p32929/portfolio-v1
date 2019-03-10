@@ -7,7 +7,7 @@ import Typography from "@material-ui/core/Typography/Typography";
 import Divider from "@material-ui/core/es/Divider/Divider";
 import {myDetails, myName, myOccupation} from './../vars/homeItems'
 
-const size = 160;
+const size = 200;
 
 const styles = theme => ({
     root: {
@@ -50,7 +50,7 @@ const Home = (props) => (
                 justify="center"
                 alignItems="center">
 
-                <Avatar alt="Fayaz Bin Salam" src="https://i.imgur.com/5A73tUq.png"
+                <Avatar alt="Fayaz Bin Salam" src="/profile_pic.jpg"
                         style={style.avatar}/>
 
                 <Grid container
