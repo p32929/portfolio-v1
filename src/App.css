@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-family: 'Muli', sans-serif;
+}
+
+.hr1 {
+  border:none;
+  border-top: 2px dashed #757575;
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:80%;
+
+}
