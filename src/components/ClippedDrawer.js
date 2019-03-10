@@ -8,7 +8,7 @@ import Toolbar from '@material-ui/core/Toolbar';
 import List from '@material-ui/core/List';
 import Divider from '@material-ui/core/Divider';
 import {lowerItems, upperItems} from './../vars/drawerItems'
-import {BrowserRouter} from 'react-router-dom'
+import {MemoryRouter} from 'react-router-dom'
 import Routes from "./Routes";
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import PersonIcon from '@material-ui/icons/Person';
@@ -61,7 +61,7 @@ function ClippedDrawer(props) {
     const {classes} = props;
 
     return (
-        <BrowserRouter>
+        <MemoryRouter>
             <ScrollToTop>
                 <div className={classes.root}>
                     <CssBaseline/>
@@ -125,7 +125,7 @@ function ClippedDrawer(props) {
                     </main>
                 </div>
             </ScrollToTop>
-        </BrowserRouter>
+        </MemoryRouter>
     );
 }
 
