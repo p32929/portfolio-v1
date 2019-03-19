@@ -14,7 +14,7 @@ import Divider from "@material-ui/core/es/Divider/Divider";
 function getIcon(url) {
     var index = 0;
     for (var i = 0; i < icons.length; i++) {
-        if (url.startsWith(icons[i].url)) {
+        if (url.match(icons[i].url)) {
             index = i;
             break;
         }
