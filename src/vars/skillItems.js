@@ -70,12 +70,24 @@ export var frameworks = [
         logo: 'https://cdn0.froala.com/assets/editor/pages/B/frameworks/react-6a9ca3fcd0c84c07c1d8bbbad0eb7dfe.svg'
     },
     {
-        title: 'Angular2+',
-        logo: 'https://angular.io/assets/images/logos/angular/angular.svg'
+        title: 'React Native',
+        logo: 'https://images.codedaily.io/icons/react.svg'
+    },
+    {
+        title: 'Adonis JS',
+        logo: 'https://avatars2.githubusercontent.com/u/13810373?s=200&v=4'
     },
     {
         title: 'ElectronJS',
         logo: 'https://www.vectorlogo.zone/logos/electronjs/electronjs-icon.svg'
+    },
+    {
+        title: 'Angular2+',
+        logo: 'https://angular.io/assets/images/logos/angular/angular.svg'
+    },
+    {
+        title: 'Bootstrap',
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg'
     },
 ]
 
@@ -93,16 +105,28 @@ export var techs = [
         logo: 'https://visualpharm.com/assets/254/Gitlab-595b40b65ba036ed117d415e.svg'
     },
     {
+        title: 'MongoDB',
+        logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg'
+    },
+    {
         title: 'Arduino',
         logo: 'https://visualpharm.com/assets/849/Arduino-595b40b65ba036ed117d3b95.svg'
     },
     {
-        title: 'IntelliJ IDEs',
+        title: 'IntelliJ IDA',
         logo: 'https://www.jetbrains.com/company/brand/img/jb-logo-with-grid.svg'
+    },
+    {
+        title: 'Webstorm',
+        logo: 'https://cdn.worldvectorlogo.com/logos/webstorm-icon.svg'
     },
     {
         title: 'VS Code',
         logo: 'https://cdn.worldvectorlogo.com/logos/visual-studio-code.svg'
+    },
+    {
+        title: 'Asana',
+        logo: 'https://cdn.worldvectorlogo.com/logos/asana-1.svg'
     },
 
 

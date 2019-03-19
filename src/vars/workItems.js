@@ -121,6 +121,13 @@ export var webApps = [
         subtitle: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
         link: 'https://github.com/p32929/Sha1ToMd5'
     },
+    {
+        title: 'Shajao',
+        logo: 'https://scontent.fcgp3-1.fna.fbcdn.net/v/t1.0-9/41412345_685962585115176_9020879000456658944_n.jpg?_nc_cat=110&_nc_ht=scontent.fcgp3-1.fna&oh=47e8fc359eb55ca1c7a0db1f21dcb14c&oe=5D123C56',
+        subtitle: 'Printing Framing - altogether',
+        link: 'https://shajao.com/'
+    },
+
 ]
 
 export var others = [
