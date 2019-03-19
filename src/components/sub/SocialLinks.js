@@ -12,7 +12,7 @@ import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import {icons} from "../../vars/workItems";
 
 function getIcon(url) {
-    var index = 0;
+    var index = 2;
     for (var i = 0; i < icons.length; i++) {
         if (url.startsWith(icons[i].url)) {
             index = i
