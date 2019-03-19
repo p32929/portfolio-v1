@@ -8,7 +8,7 @@ import ListSubheader from "@material-ui/core/ListSubheader/ListSubheader";
 import GridListTileBar from "@material-ui/core/GridListTileBar/GridListTileBar";
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
-import {icons} from '../../vars/workItems'
+import {icons} from '../../vars/projectItems'
 import Divider from "@material-ui/core/es/Divider/Divider";
 import ListItem from "@material-ui/core/ListItem/ListItem";
 
@@ -96,9 +96,9 @@ const WorksGridItems = (props) => {
 }
 
 WorksGridItems.propTypes = {
-    name: PropTypes.object.isRequired,
-    list: PropTypes.object.isRequired,
-    marginTop: PropTypes.object.isRequired,
+    name: PropTypes.string.isRequired,
+    list: PropTypes.array.isRequired,
+    marginTop: PropTypes.number.isRequired,
 };
 
 export default withStyles(styles)(WorksGridItems);

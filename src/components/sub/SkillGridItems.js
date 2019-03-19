@@ -68,9 +68,9 @@ const SkillGridItems = (props) => {
 }
 
 SkillGridItems.propTypes = {
-    name: PropTypes.object.isRequired,
-    list: PropTypes.object.isRequired,
-    marginTop: PropTypes.object.isRequired,
+    name: PropTypes.string.isRequired,
+    list: PropTypes.array.isRequired,
+    marginTop: PropTypes.number.isRequired,
 };
 
 export default withStyles(styles)(SkillGridItems);

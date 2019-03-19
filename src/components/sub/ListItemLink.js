@@ -29,7 +29,7 @@ class ListItemLink extends Component {
 }
 
 ListItemLink.propTypes = {
-    icon: PropTypes.node.isRequired,
+    icon: PropTypes.element.isRequired,
     primary: PropTypes.node.isRequired,
     to: PropTypes.string.isRequired,
 };
