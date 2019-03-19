@@ -38,7 +38,7 @@ const style = {
         fontSize: 18,
         margin: 24
     }
-}
+};
 
 const Home = (props) => (
     <Grid container
@@ -77,7 +77,7 @@ const Home = (props) => (
             </Typography>
         </Paper>
     </Grid>
-)
+);
 
 Home.propTypes = {};
 

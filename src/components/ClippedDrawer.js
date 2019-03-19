@@ -11,7 +11,6 @@ import {lowerItems, upperItems} from './../vars/drawerItems'
 import {MemoryRouter} from 'react-router-dom'
 import Routes from "./Routes";
 import IconButton from "@material-ui/core/IconButton/IconButton";
-import PersonIcon from '@material-ui/icons/Person';
 import Typography from "@material-ui/core/Typography/Typography";
 import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import ListItemLink from "./sub/ListItemLink";

@@ -29,7 +29,7 @@ const styles = {
         position: 'relative',
         objectFit: 'contain'
     },
-}
+};
 
 const SkillGridItems = (props) => {
     const {classes, name, list, marginTop} = props;
@@ -65,7 +65,7 @@ const SkillGridItems = (props) => {
             </GridList>
         </Paper>
     )
-}
+};
 
 SkillGridItems.propTypes = {
     name: PropTypes.string.isRequired,

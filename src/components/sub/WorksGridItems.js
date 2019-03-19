@@ -10,13 +10,12 @@ import IconButton from "@material-ui/core/IconButton/IconButton";
 import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import {icons} from '../../vars/projectItems'
 import Divider from "@material-ui/core/es/Divider/Divider";
-import ListItem from "@material-ui/core/ListItem/ListItem";
 
 function getIcon(url) {
     var index = 0;
     for (var i = 0; i < icons.length; i++) {
         if (url.startsWith(icons[i].url)) {
-            index = i
+            index = i;
             break;
         }
     }
@@ -46,7 +45,7 @@ const styles = {
         position: 'relative',
         objectFit: 'contain'
     },
-}
+};
 
 const WorksGridItems = (props) => {
     const {classes, name, list, marginTop} = props;
@@ -93,7 +92,7 @@ const WorksGridItems = (props) => {
             </GridList>
         </Paper>
     )
-}
+};
 
 WorksGridItems.propTypes = {
     name: PropTypes.string.isRequired,

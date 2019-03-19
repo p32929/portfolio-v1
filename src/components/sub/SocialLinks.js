@@ -15,7 +15,7 @@ function getIcon(url) {
     var index = 2;
     for (var i = 0; i < icons.length; i++) {
         if (url.startsWith(icons[i].url)) {
-            index = i
+            index = i;
             break;
         }
     }
@@ -42,7 +42,7 @@ const styles = {
         position: 'relative',
         objectFit: 'contain'
     },
-}
+};
 
 const SocialLinks = (props) => {
     const {classes, name, list, marginTop} = props;
@@ -95,7 +95,7 @@ const SocialLinks = (props) => {
             </GridList>
         </Paper>
     )
-}
+};
 
 SocialLinks.propTypes = {
     name: PropTypes.string.isRequired,

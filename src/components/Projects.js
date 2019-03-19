@@ -2,7 +2,7 @@ import React from 'react';
 import Grid from '@material-ui/core/Grid';
 import {withStyles} from '@material-ui/core/styles';
 import WorksGridItems from "./sub/WorksGridItems";
-import {androidApps, androidLibs, desktopApps, webApps, others} from '../vars/projectItems'
+import {androidApps, androidLibs, desktopApps, others, webApps} from '../vars/projectItems'
 
 
 const styles = theme => ({
@@ -19,7 +19,7 @@ const Projects = (props) => (
         <WorksGridItems name='Web Apps' list={webApps} marginTop={16}/>
         <WorksGridItems name='Others' list={others} marginTop={16}/>
     </Grid>
-)
+);
 
 Projects.propTypes = {};
 

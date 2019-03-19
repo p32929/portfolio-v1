@@ -32,7 +32,7 @@ const Contact = (props) => (
         </Paper>
 
     </Grid>
-)
+);
 
 Contact.propTypes = {};
 

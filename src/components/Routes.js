@@ -12,6 +12,6 @@ const Routes = (props) => (
         <Route path='/projects' component={Works}/>
         <Route path='/contact' component={Contact}/>
     </Switch>
-)
+);
 
 export default Routes;
