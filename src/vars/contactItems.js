@@ -14,7 +14,7 @@ export var socialLinks = [
     {
         title: 'WhatApp',
         logo: 'https://image.flaticon.com/icons/svg/174/174879.svg',
-        link: 'https://api.whatsapp.com/send?phone=+8801796306262'
+        link: 'https://api.whatsapp.com/send?phone=8801796306262'
     },
     {
         title: 'LinkedIn',
