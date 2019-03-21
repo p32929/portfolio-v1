@@ -13,16 +13,41 @@ const styles = theme => ({
     },
 });
 
+const newSyles = {
+    selectedButton: {
+        borderBottomRightRadius: 10,
+        borderTopRightRadius: 10,
+        backgroundColor: '#4CAF50',
+    },
+    selectedIcon: {
+        color: '#FFF'
+    },
+    selectedText: {
+        color: '#FFFFFF',
+    },
+}
+
 class ListItemLink extends Component {
     renderLink = itemProps => <Link style={{textDecoration: 'none'}}
                                     to={this.props.to} {...itemProps} />;
 
     render() {
-        const {icon, primary} = this.props;
+        const {icon, primary, setRoute, index, route} = this.props;
         return (
-            <ListItem button component={this.renderLink}>
-                <ListItemIcon>{icon}</ListItemIcon>
-                <ListItemText primary={primary}/>
+            <ListItem
+                style={route == index ? newSyles.selectedButton : null}
+                button
+                onClick={() => {
+                    setRoute(index)
+                }}
+                component={this.renderLink}>
+                <ListItemIcon
+                    style={route == index ? newSyles.selectedIcon : null}
+                >{icon}</ListItemIcon>
+                <ListItemText
+                    disableTypography
+                    style={route == index ? newSyles.selectedText : null}
+                    primary={primary}/>
             </ListItem>
         );
     }

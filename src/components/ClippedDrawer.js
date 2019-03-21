@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import PropTypes from 'prop-types';
 import {withStyles} from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
@@ -57,11 +57,21 @@ const styles = theme => ({
     },
 });
 
+const routes = [
+    '/',
+    '/skills',
+    '/projects',
+    '/contact',
+]
+
 function ClippedDrawer(props) {
     const {classes} = props;
+    const [route, setRoute] = useState(0)
 
     return (
-        <MemoryRouter>
+        <MemoryRouter
+            initialEntries={routes}
+            initialIndex={0}>
             <ScrollToTop>
                 <div className={classes.root}>
                     <CssBaseline/>
@@ -95,7 +105,7 @@ function ClippedDrawer(props) {
                             <List>
                                 {
                                     upperItems.map((item, index) => (
-                                        <ListItemLink key={index} to={item.to} primary={item.myName} icon={item.icon}/>
+                                        <ListItemLink route={route} index={index} setRoute={setRoute} key={index} to={item.to} primary={item.myName} icon={item.icon}/>
                                     ))
                                 }
                             </List>
