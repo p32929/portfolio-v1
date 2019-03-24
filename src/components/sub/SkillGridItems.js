@@ -31,11 +31,27 @@ const styles = {
     },
 };
 
+const mtb = [
+    {
+        marginTop: 0,
+        marginBottom: 0,
+    },
+    {
+        marginTop: 16,
+        marginBottom: 0,
+    },
+    {
+        marginTop: 16,
+        marginBottom: 16,
+    },
+
+]
+
 const SkillGridItems = (props) => {
-    const {classes, name, list, marginTop} = props;
+    const {classes, name, list, margins} = props;
 
     return (
-        <Paper style={{marginTop: marginTop}}>
+        <Paper style={mtb[margins]}>
             <GridList cols={5} style={styles.tile}>
                 <GridListTile key="Subheader" cols={5} style={{height: 'auto'}}>
                     <ListSubheader
