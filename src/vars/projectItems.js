@@ -43,13 +43,6 @@ export var androidApps = [
         subtitle: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
         link: 'https://play.google.com/store/apps/details?id=p32929.imfree'
     },
-    {
-        title: 'Thamao',
-        logo: 'https://cdn.apkmonk.com/logos/com.thamao_150x150.png',
-        subtitle: 'বেবাংলাদেশে স্মার্টফোনের চুরি এবার অসম্ভব',
-        link: 'https://play.google.com/store/apps/details?id=com.thamao'
-    },
-
 ]
 
 export var androidLibs = [
@@ -121,11 +114,38 @@ export var webApps = [
         subtitle: 'A simple utility tool to convert Google Play Release APK Sha1 value to MD5 for Facebook login to work.',
         link: 'https://github.com/p32929/Sha1ToMd5'
     },
+]
+
+export var NDAs = [
     {
         title: 'Shajao',
-        logo: 'https://scontent.fcgp3-1.fna.fbcdn.net/v/t1.0-9/41412345_685962585115176_9020879000456658944_n.jpg?_nc_cat=110&_nc_ht=scontent.fcgp3-1.fna&oh=47e8fc359eb55ca1c7a0db1f21dcb14c&oe=5D123C56',
-        subtitle: 'Printing Framing - altogether',
-        link: 'https://shajao.com/'
+        logo: 'https://image.flaticon.com/icons/svg/511/511139.svg',
+        subtitle: '---',
+        link: 'about:blank'
+    },
+    {
+        title: 'Thamao',
+        logo: 'https://image.flaticon.com/icons/svg/511/511140.svg',
+        subtitle: '---',
+        link: 'about:blank'
+    },
+    {
+        title: 'GeenPunt',
+        logo: 'https://image.flaticon.com/icons/svg/511/511127.svg',
+        subtitle: '---',
+        link: 'about:blank'
+    },
+    {
+        title: 'AdsHacker',
+        logo: 'https://image.flaticon.com/icons/svg/511/511121.svg',
+        subtitle: '---',
+        link: 'about:blank'
+    },
+    {
+        title: 'Fast English Academy',
+        logo: 'https://image.flaticon.com/icons/svg/511/511126.svg',
+        subtitle: '---',
+        link: 'about:blank'
     },
 
 ]
