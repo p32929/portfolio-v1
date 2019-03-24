@@ -24,7 +24,7 @@ const Contact = (props) => (
 
         <SocialLinks name='My Other Social Links' list={socialLinks} marginTop={16}/>
 
-        <Paper style={{padding: 16, marginTop: 16}}>
+        <Paper style={{padding: 16, marginTop: 16, marginBottom: 16}}>
             Add me anywhere by this ID (If I registered there)
             <Typography>
                 p32929
