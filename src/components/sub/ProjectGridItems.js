@@ -47,11 +47,27 @@ const styles = {
     },
 };
 
-const WorksGridItems = (props) => {
-    const {classes, name, list, marginTop} = props;
+const mtb = [
+    {
+        marginTop: 0,
+        marginBottom: 0,
+    },
+    {
+        marginTop: 16,
+        marginBottom: 0,
+    },
+    {
+        marginTop: 16,
+        marginBottom: 16,
+    },
+
+]
+
+const ProjectGridItems = (props) => {
+    const {classes, name, list, margins} = props;
     return (
         <Paper
-            style={{marginTop: marginTop}}>
+            style={mtb[margins]}>
             <GridList cols={4} style={styles.tile}>
                 <GridListTile key="Subheader" cols={4} style={{height: 'auto'}}>
                     <ListSubheader
@@ -94,10 +110,10 @@ const WorksGridItems = (props) => {
     )
 };
 
-WorksGridItems.propTypes = {
+ProjectGridItems.propTypes = {
     name: PropTypes.string.isRequired,
     list: PropTypes.array.isRequired,
     marginTop: PropTypes.number.isRequired,
 };
 
-export default withStyles(styles)(WorksGridItems);
+export default withStyles(styles)(ProjectGridItems);
