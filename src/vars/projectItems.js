@@ -43,6 +43,12 @@ export var androidApps = [
         subtitle: 'বেকার মুক্ত বাংলাদেশ গড়ার লক্ষ্যে - I am FREE',
         link: 'https://play.google.com/store/apps/details?id=p32929.imfree'
     },
+    {
+        title: 'EasyGooglePlayDownloader',
+        logo: 'https://user-images.githubusercontent.com/6418354/56405936-8a807d80-6290-11e9-8bc3-9e7e1fd40e5d.png',
+        subtitle: 'A lightweight, user friendly APK downloader for Android - directly from Google Play',
+        link: 'https://github.com/p32929/EasyGooglePlayDownloader'
+    }
 ]
 
 export var androidLibs = [
@@ -193,6 +199,12 @@ export var others = [
         subtitle: 'Server up-down checker created using python',
         link: 'https://github.com/p32929/MyPython3Scripts/blob/master/Server_up_down_checker_and_notifier.py'
     },
+    {
+        title: '.gitignore',
+        logo: 'https://image.flaticon.com/icons/svg/1680/1680862.svg',
+        subtitle: 'A collection of gitignore files that I use',
+        link: 'https://github.com/p32929/.gitignore'
+    }
 
 ]
 

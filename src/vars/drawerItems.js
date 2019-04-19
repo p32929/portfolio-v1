@@ -34,6 +34,10 @@ export var upperItems = [
 
 export const lowerItems = [
     {
+        myName: 'Blog',
+        URL: 'http://p32929.wordpress.com/'
+    },
+    {
         myName: 'Facebook',
         URL: 'http://facebook.com/p32929'
     },
