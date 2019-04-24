@@ -13,7 +13,7 @@ const styles = theme => ({
 const Skills = (props) => (
     <Grid>
         <SkillGridItems name='Programming/Markup Languages' list={languages} margins={0}/>
-        <SkillGridItems name='Frameworks' list={frameworks} margins={1}/>
+        <SkillGridItems name='Libraries/Frameworks' list={frameworks} margins={1}/>
         <SkillGridItems name='Others' list={techs} margins={2}/>
     </Grid>
 );

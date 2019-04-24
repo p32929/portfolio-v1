@@ -89,6 +89,31 @@ export var frameworks = [
         title: 'Bootstrap',
         logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg'
     },
+    {
+        title: 'Mongoose',
+        logo: 'https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2F7a00cdd0-fae4-11e7-ae09-7f36f712693a.png&height=640'
+    },
+    {
+        title: 'GSON',
+        logo: 'https://s.appbrain.com/static/201904161618755/blob/sdk-logos/google_gson.png'
+    },
+    {
+        title: 'Deployd',
+        logo: 'http://deployd.com/img/bucket/modular.png'
+    },
+    {
+        title: 'Firebase',
+        logo: 'https://spng.pngfly.com/20180417/irq/kisspng-firebase-cloud-messaging-computer-icons-google-clo-github-5ad5d3cde70706.9853526815239628299463.jpg'
+    },
+    {
+        title: 'Facebook SDKs',
+        logo: 'https://freeiconshop.com/wp-content/uploads/edd/facebook-flat.png'
+    },
+    {
+        title: 'Google SDKs',
+        logo: 'https://freeiconshop.com/wp-content/uploads/edd/google-flat.png'
+    },
+
 ]
 
 export var techs = [
@@ -128,6 +153,9 @@ export var techs = [
         title: 'Asana',
         logo: 'https://cdn.worldvectorlogo.com/logos/asana-1.svg'
     },
-
+    {
+        title: 'Automation',
+        logo: 'https://image.flaticon.com/icons/svg/1035/1035688.svg'
+    },
 
 ]

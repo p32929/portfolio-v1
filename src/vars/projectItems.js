@@ -48,7 +48,14 @@ export var androidApps = [
         logo: 'https://user-images.githubusercontent.com/6418354/56405936-8a807d80-6290-11e9-8bc3-9e7e1fd40e5d.png',
         subtitle: 'A lightweight, user friendly APK downloader for Android - directly from Google Play',
         link: 'https://github.com/p32929/EasyGooglePlayDownloader'
-    }
+    },
+    {
+        title: 'MyEyes',
+        logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
+        subtitle: 'Indoor Navigation App for Blind People',
+        link: 'https://github.com/p32929'
+    },
+
 ]
 
 export var androidLibs = [

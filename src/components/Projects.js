@@ -15,7 +15,7 @@ const Projects = (props) => (
     <Grid>
         <WorksGridItems name='Android Apps' list={androidApps} margins={0}/>
         <WorksGridItems name='Android Libraries' list={androidLibs} margins={1}/>
-        <WorksGridItems name='Desktop Apps' list={desktopApps} margins={1}/>
+        <WorksGridItems name='Desktop Apps/Scripts' list={desktopApps} margins={1}/>
         <WorksGridItems name='Web Apps' list={webApps} margins={1}/>
         <WorksGridItems name='NDAs (Non Disclosure Agreements)' list={NDAs} margins={1}/>
         <WorksGridItems name='Others' list={others} margins={2}/>
