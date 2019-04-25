@@ -55,6 +55,13 @@ export var androidApps = [
         subtitle: 'Indoor Navigation App for Blind People',
         link: 'https://github.com/p32929'
     },
+    {
+        title: 'BirthdayBot',
+        logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
+        subtitle: 'Birthday wishing apps, made for individual people...',
+        link: 'https://github.com/p32929/BirthdayBot/'
+    },
+
 
 ]
 
