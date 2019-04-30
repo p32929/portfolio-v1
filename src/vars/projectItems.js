@@ -96,14 +96,20 @@ export var desktopApps = [
     {
         title: 'Shortcut-Virus-Remover',
         logo: 'https://image.flaticon.com/icons/svg/1547/1547475.svg',
-        subtitle: 'Shortcut virus remover app for Windows ',
+        subtitle: 'Shortcut virus remover app for Windows',
         link: 'https://github.com/p32929/Shortcut-Virus-Remover'
     },
     {
         title: 'Linux_Screen_Dimmer',
         logo: 'https://image.flaticon.com/icons/svg/262/262551.svg',
-        subtitle: 'A simple screen dimming utility for linux ',
+        subtitle: 'A simple screen dimming utility for linux',
         link: 'https://github.com/p32929/Linux_Screen_Dimmer'
+    },
+    {
+        title: 'MoodyLauncher',
+        logo: 'https://image.flaticon.com/icons/svg/977/977657.svg',
+        subtitle: 'A simple App Launcher Script that runs a list of apps depending on the users mood',
+        link: 'https://github.com/p32929/MoodyLauncher'
     },
 
 ]
