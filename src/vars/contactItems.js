@@ -22,7 +22,7 @@ export var socialLinks = [
         link: 'https://www.linkedin.com/in/p32929/'
     },
     {
-        title: 'Gooele+',
+        title: 'Gooele+ [RIP]',
         logo: 'https://image.flaticon.com/icons/svg/174/174851.svg',
         link: 'https://plus.google.com/112639130440478563588'
     },

@@ -26,6 +26,18 @@ export var androidApps = [
         link: 'https://play.google.com/store/apps/details?id=p32929.cgpa_calculator'
     },
     {
+        title: 'Buy Sell BD',
+        logo: 'https://i.ibb.co/RSHT7z4/icon.png',
+        subtitle: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
+        link: 'https://github.com/p32929/BuySellBD'
+    },
+    {
+        title: 'Buy Sell BD',
+        logo: 'https://i.ibb.co/RSHT7z4/icon.png',
+        subtitle: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
+        link: 'https://github.com/p32929/BuySellBD'
+    },
+    {
         title: 'ExIn',
         logo: 'https://lh3.googleusercontent.com/X8mRJd7JajvDXoW7NaluKt2IvC3osH6czkTPoWeSYJ96U2LWLKT4xiFgvNouwf-UvEk=s180',
         subtitle: 'A Simple & user friendly income-expense tracker ',
