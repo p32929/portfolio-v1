@@ -29,13 +29,7 @@ export var androidApps = [
         title: 'Buy Sell BD',
         logo: 'https://i.ibb.co/RSHT7z4/icon.png',
         subtitle: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
-        link: 'https://github.com/p32929/BuySellBD'
-    },
-    {
-        title: 'Buy Sell BD',
-        logo: 'https://i.ibb.co/RSHT7z4/icon.png',
-        subtitle: 'A better & more reliable alternative for Bikroy.com - A marketplace app for buying-selling new/used goods',
-        link: 'https://github.com/p32929/BuySellBD'
+        link: 'https://play.google.com/store/apps/details?id=p32929.buysellbd'
     },
     {
         title: 'ExIn',
@@ -73,7 +67,12 @@ export var androidApps = [
         subtitle: 'Birthday wishing apps, made for individual people...',
         link: 'https://github.com/p32929/BirthdayBot/'
     },
-
+    {
+        title: 'OurOfficeApp',
+        logo: 'https://image.flaticon.com/icons/svg/230/230338.svg',
+        subtitle: 'An Android client for managing our internal office tasks',
+        link: 'https://github.com/p32929/OurOfficeApp/'
+    },
 
 ]
 
