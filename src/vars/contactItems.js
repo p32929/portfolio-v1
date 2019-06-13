@@ -33,3 +33,6 @@ export var socialLinks = [
     },
 
 ]
+
+export var bottom1stTest = '';
+export var bottom2ndText = '';

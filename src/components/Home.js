@@ -5,7 +5,7 @@ import Paper from "@material-ui/core/es/Paper/Paper";
 import Avatar from "@material-ui/core/Avatar/Avatar";
 import Typography from "@material-ui/core/Typography/Typography";
 import Divider from "@material-ui/core/es/Divider/Divider";
-import {myDetails, myName, myOccupation} from './../vars/homeItems'
+import {myDetails, myName, myOccupation, myImageLink} from './../vars/homeItems'
 
 const size = 200;
 
@@ -50,7 +50,7 @@ const Home = (props) => (
                 justify="center"
                 alignItems="center">
 
-                <Avatar alt="Fayaz Bin Salam" src="https://i.imgur.com/nRNlRdL.jpg"
+                <Avatar alt={myName} src={myImageLink}
                         style={style.avatar}/>
 
                 <Grid container
