@@ -22,4 +22,4 @@ If you don't have them installed, installed them from here: https://nodejs.org/e
 
 4. To edit the Contact section, edit the variables inside `vars/contactItems.js` file.
 
-5. To edit the 2nd Drawer Items, edit the `lowerItems` variable inside `vars/drawerItems.js` file.
+5. To edit the Drawer Items, edit the variables inside `vars/drawerItems.js` file.

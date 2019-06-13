@@ -1,6 +1,5 @@
 import React from "react";
 import HomeIcon from '@material-ui/icons/Home';
-// import InfoIcon from '@material-ui/icons/Info';
 import SettingsIcon from '@material-ui/icons/Settings';
 import WorkIcon from '@material-ui/icons/Work';
 import ContactsIcon from '@material-ui/icons/Contacts';
