@@ -18,8 +18,8 @@ If you don't have them installed, installed them from here: https://nodejs.org/e
 
 2. To edit the Skills section, edit the variables inside `vars/skillItems.js` file.
 
-3. To edit the Skills section, edit the variables inside `vars/projectItems.js` file.
+3. To edit the Projects section, edit the variables inside `vars/projectItems.js` file.
 
-4. To edit the Skills section, edit the variables inside `vars/contactItems.js` file.
+4. To edit the Contact section, edit the variables inside `vars/contactItems.js` file.
 
-5. To edit the Skills section, edit the variables inside `vars/contactItems.js` file.
+5. To edit the 2nd Drawer Items, edit the `lowerItems` variable inside `vars/drawerItems.js` file.
