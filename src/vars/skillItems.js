@@ -116,7 +116,7 @@ export var frameworks = [
 
 ]
 
-export var techs = [
+export var others = [
     {
         title: 'Git',
         logo: 'https://visualpharm.com/assets/991/Git-595b40b65ba036ed117d415b.svg'
