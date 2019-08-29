@@ -19,9 +19,10 @@ If you don't have them installed, installed them from here: https://nodejs.org/e
 3. To edit the Projects section, edit the variables inside `vars/projectItems.js` file.
 4. To edit the Contact section, edit the variables inside `vars/contactItems.js` file.
 5. To edit the Drawer Items, edit the variables inside `vars/drawerItems.js` file.
-6. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
-7. Run this command: `npm run deploy`
-8. To check your portfolio LIVE version in github pages, go to the `homepage` URL
+6. Inside `public/index.html` change the `title` tag according to your own choise
+7. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
+8. Run this command: `npm run deploy`
+9. To check your portfolio LIVE version in github pages, go to the `homepage` URL
 
 ## Thanks
 Hope you'll enjoy creating your own portfolio :)
