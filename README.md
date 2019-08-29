@@ -22,7 +22,8 @@ If you don't have them installed, installed them from here: https://nodejs.org/e
 6. Inside `public/index.html` change the `title` tag according to your own choise
 7. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
 8. Run this command: `npm run deploy`
-9. To check your portfolio LIVE version in github pages, go to the `homepage` URL
+9. Go the the repository settings page > Github Pages > Source and set it to `gh-pages branch`
+9. That's it. Now, you can check your portfolio LIVE version in github pages using `homepage` URL
 
 ## Thanks
 Hope you'll enjoy creating your own portfolio :)
