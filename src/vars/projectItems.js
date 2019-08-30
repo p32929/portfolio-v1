@@ -59,19 +59,19 @@ export var androidApps = [
         title: 'MyEyes',
         logo: 'https://image.flaticon.com/icons/svg/1614/1614505.svg',
         subtitle: 'Indoor Navigation App for Blind People',
-        link: 'https://github.com/p32929'
+        link: ''
     },
     {
         title: 'BirthdayBot',
         logo: 'https://image.flaticon.com/icons/svg/415/415587.svg',
         subtitle: 'Birthday wishing apps, made for individual people...',
-        link: 'https://github.com/p32929/BirthdayBot/'
+        link: ''
     },
     {
         title: 'OurOfficeApp',
         logo: 'https://image.flaticon.com/icons/svg/230/230338.svg',
         subtitle: 'An Android client for managing our internal office tasks',
-        link: 'https://github.com/p32929/OurOfficeApp/'
+        link: ''
     },
 
 ]
@@ -106,7 +106,7 @@ export var androidLibs = [
 
 export var desktopApps = [
     {
-        title: 'Electron-Pomotodo',
+        title: 'PotatoTimer',
         logo: 'https://cdn0.iconfinder.com/data/icons/vegetables-ii-color/290/18-512.png',
         subtitle: 'A pomotodo app that forces you to take a break - created using ElectronJS',
         link: 'https://github.com/p32929/Electron-Pomotodo'
@@ -181,6 +181,12 @@ export var NDAs = [
     {
         title: 'Fast English Academy',
         logo: 'https://image.flaticon.com/icons/svg/511/511126.svg',
+        subtitle: '---',
+        link: 'about:blank'
+    },
+    {
+        title: 'Konika',
+        logo: 'https://image.flaticon.com/icons/svg/511/511131.svg',
         subtitle: '---',
         link: 'about:blank'
     },
