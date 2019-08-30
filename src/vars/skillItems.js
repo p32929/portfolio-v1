@@ -1,24 +1,23 @@
-
 export var languages = [
     {
         title: 'C',
-        logo: 'https://visualpharm.com/assets/698/C%20Programming-595b40b65ba036ed117d3edc.svg',
+        logo: 'https://seeklogo.com/images/C/c-logo-672525892C-seeklogo.com.png',
     },
     {
         title: 'C++',
-        logo: 'https://visualpharm.com/assets/4/C++-595b40b65ba036ed117d3edb.svg',
+        logo: 'https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png',
     },
     {
         title: 'Java',
-        logo: 'https://visualpharm.com/assets/766/Java-595b40b75ba036ed117d84d1.svg',
+        logo: 'https://www.vectorlogo.zone/logos/java/java-icon.svg',
     },
     {
         title: 'Python',
-        logo: 'https://visualpharm.com/assets/575/Python-595b40b85ba036ed117da8c6.svg',
+        logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
     },
     {
         title: 'JavaScript',
-        logo: 'https://visualpharm.com/assets/841/Javascript-595b40b85ba036ed117dd6a7.svg',
+        logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
     },
     {
         title: 'SQL',
@@ -26,15 +25,15 @@ export var languages = [
     },
     {
         title: 'HTML',
-        logo: 'https://visualpharm.com/assets/808/HTML%205-595b40b65ba036ed117d4260.svg',
+        logo: 'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
     },
     {
         title: 'CSS',
-        logo: 'https://visualpharm.com/assets/136/Css3-595b40b65ba036ed117d3eb8.svg',
+        logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
     },
     {
         title: 'UNIX',
-        logo: 'https://visualpharm.com/assets/795/Unix-595b40b85ba036ed117dad11.svg',
+        logo: 'https://www.vectorlogo.zone/logos/gnu/gnu-icon.svg',
     },
     {
         title: 'VBScript',
@@ -44,30 +43,56 @@ export var languages = [
         title: 'Batch',
         logo: 'https://cdn0.iconfinder.com/data/icons/software-4/24/console_command_prompt_shell_program-512.png',
     },
-
-
+    {
+        title: 'TypeScript',
+        logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
+    },
+    {
+        title: 'PHP',
+        logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg',
+    },
+    {
+        title: 'Ruby',
+        logo: 'https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-icon.svg',
+    },
+    {
+        title: 'Kotlin',
+        logo: 'https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg',
+    },
+    {
+        title: 'Dart',
+        logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
+    },
+    {
+        title: 'Pug',
+        logo: 'https://www.vectorlogo.zone/logos/pugjs/pugjs-icon.svg'
+    },
+    {
+        title: 'XML',
+        logo: 'https://www.vectorlogo.zone/logos/w3c_xml/w3c_xml-icon.svg'
+    },
 ]
 
 export var frameworks = [
     {
         title: 'Android App Development',
-        logo: 'https://visualpharm.com/assets/255/Android%20Os-595b40b65ba036ed117d3b69.svg'
+        logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg'
     },
     {
         title: 'NodeJS',
-        logo: 'https://visualpharm.com/assets/393/Nodejs-595b40b85ba036ed117da6cc.svg'
+        logo: 'https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg'
     },
     {
         title: 'ExpressJS',
-        logo: 'https://seeklogo.com/images/E/express-logo-E9DA5D0AF7-seeklogo.com.png'
+        logo: 'https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg'
     },
     {
         title: 'npm',
-        logo: 'https://visualpharm.com/assets/523/Npm-595b40b85ba036ed117da71c.svg'
+        logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
     },
     {
         title: 'ReactJS',
-        logo: 'https://cdn0.froala.com/assets/editor/pages/B/frameworks/react-6a9ca3fcd0c84c07c1d8bbbad0eb7dfe.svg'
+        logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg'
     },
     {
         title: 'React Native',
@@ -75,7 +100,7 @@ export var frameworks = [
     },
     {
         title: 'Adonis JS',
-        logo: 'https://avatars2.githubusercontent.com/u/13810373?s=200&v=4'
+        logo: 'https://www.vectorlogo.zone/logos/adonisjs/adonisjs-icon.svg'
     },
     {
         title: 'ElectronJS',
@@ -90,8 +115,16 @@ export var frameworks = [
         logo: 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Boostrap_logo.svg'
     },
     {
+        title: 'MongoDB',
+        logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg'
+    },
+    {
         title: 'Mongoose',
         logo: 'https://images.opencollective.com/proxy/images?src=https%3A%2F%2Fopencollective-production.s3-us-west-1.amazonaws.com%2F7a00cdd0-fae4-11e7-ae09-7f36f712693a.png&height=640'
+    },
+    {
+        title: 'Babel',
+        logo: 'https://www.vectorlogo.zone/logos/babeljs/babeljs-icon.svg'
     },
     {
         title: 'GSON',
@@ -102,40 +135,59 @@ export var frameworks = [
         logo: 'http://deployd.com/img/bucket/modular.png'
     },
     {
+        title: 'OpenCV',
+        logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg'
+    },
+    {
+        title: 'Parse',
+        logo: 'https://www.vectorlogo.zone/logos/parseplatform/parseplatform-icon.svg'
+    },
+    {
         title: 'Firebase',
-        logo: 'https://spng.pngfly.com/20180417/irq/kisspng-firebase-cloud-messaging-computer-icons-google-clo-github-5ad5d3cde70706.9853526815239628299463.jpg'
+        logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'
     },
     {
         title: 'Facebook SDKs',
-        logo: 'https://freeiconshop.com/wp-content/uploads/edd/facebook-flat.png'
+        logo: 'https://www.vectorlogo.zone/logos/facebook/facebook-icon.svg'
     },
     {
         title: 'Google SDKs',
-        logo: 'https://freeiconshop.com/wp-content/uploads/edd/google-flat.png'
+        logo: 'https://www.vectorlogo.zone/logos/google/google-icon.svg'
     },
-
+    {
+        title: 'Flutter',
+        logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg'
+    },
+    {
+        title: 'Tensorflow',
+        logo: 'https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg'
+    },
+    {
+        title: 'Unity',
+        logo: 'https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg'
+    },
+    {
+        title: 'Yarn',
+        logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg'
+    },
 ]
 
 export var others = [
     {
         title: 'Git',
-        logo: 'https://visualpharm.com/assets/991/Git-595b40b65ba036ed117d415b.svg'
+        logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
     },
     {
         title: 'GitHub',
-        logo: 'https://visualpharm.com/assets/253/Github-595b40b65ba036ed117d415c.svg'
+        logo: 'https://www.vectorlogo.zone/logos/github/github-icon.svg'
     },
     {
         title: 'GitLab',
-        logo: 'https://visualpharm.com/assets/254/Gitlab-595b40b65ba036ed117d415e.svg'
-    },
-    {
-        title: 'MongoDB',
-        logo: 'https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg'
+        logo: 'https://www.vectorlogo.zone/logos/gitlab/gitlab-icon.svg'
     },
     {
         title: 'Arduino',
-        logo: 'https://visualpharm.com/assets/849/Arduino-595b40b65ba036ed117d3b95.svg'
+        logo: 'https://www.vectorlogo.zone/logos/arduino/arduino-icon.svg'
     },
     {
         title: 'IntelliJ IDA',
@@ -157,5 +209,36 @@ export var others = [
         title: 'Automation',
         logo: 'https://image.flaticon.com/icons/svg/1035/1035688.svg'
     },
-
+    {
+        title: 'Gradle',
+        logo: 'https://www.vectorlogo.zone/logos/gradle/gradle-icon.svg'
+    },
+    {
+        title: 'Apache',
+        logo: 'https://www.vectorlogo.zone/logos/apache/apache-ar21.svg'
+    },
+    {
+        title: 'Asana',
+        logo: 'https://www.vectorlogo.zone/logos/asana/asana-ar21.svg'
+    },
+    {
+        title: 'AWS',
+        logo: 'https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg'
+    },
+    {
+        title: 'Expo',
+        logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
+    },
+    {
+        title: 'Figma',
+        logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'
+    },
+    {
+        title: 'Heroku',
+        logo: 'https://www.vectorlogo.zone/logos/heroku/heroku-icon.svg'
+    },
+    {
+        title: 'NgInx',
+        logo: 'https://www.vectorlogo.zone/logos/nginx/nginx-icon.svg'
+    },
 ]
