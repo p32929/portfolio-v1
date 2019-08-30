@@ -9,18 +9,17 @@ import GridListTileBar from "@material-ui/core/GridListTileBar/GridListTileBar";
 import Divider from "@material-ui/core/es/Divider/Divider";
 import IconButton from "@material-ui/core/IconButton/IconButton";
 import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
-import {icons} from "../../vars/projectItems";
 
-function getIcon(url) {
-    var index = 2;
-    for (var i = 0; i < icons.length; i++) {
-        if (url.startsWith(icons[i].url)) {
-            index = i;
-            break;
-        }
-    }
-    return icons[index].icon;
-}
+// function getIcon(url) {
+//     var index = 2;
+//     for (var i = 0; i < icons.length; i++) {
+//         if (url.startsWith(icons[i].url)) {
+//             index = i;
+//             break;
+//         }
+//     }
+//     return icons[index].icon;
+// }
 
 const styles = {
     subHeader: {
@@ -45,7 +44,7 @@ const styles = {
 };
 
 const SocialLinks = (props) => {
-    const {classes, name, list, marginTop} = props;
+    const {name, list, marginTop} = props;
 
     return (
         <Paper

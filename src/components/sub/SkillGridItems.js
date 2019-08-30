@@ -48,7 +48,7 @@ const mtb = [
 ]
 
 const SkillGridItems = (props) => {
-    const {classes, name, list, margins} = props;
+    const {name, list, margins} = props;
 
     return (
         <Paper style={mtb[margins]}>

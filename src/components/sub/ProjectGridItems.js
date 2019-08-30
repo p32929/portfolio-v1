@@ -64,7 +64,7 @@ const mtb = [
 ]
 
 const ProjectGridItems = (props) => {
-    const {classes, name, list, margins} = props;
+    const {name, list, margins} = props;
     return (
         <Paper
             style={mtb[margins]}>

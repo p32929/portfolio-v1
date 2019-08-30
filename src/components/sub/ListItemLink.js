@@ -35,18 +35,18 @@ class ListItemLink extends Component {
         const {icon, primary, setRoute, index, route} = this.props;
         return (
             <ListItem
-                style={route == index ? newSyles.selectedButton : null}
+                style={route === index ? newSyles.selectedButton : null}
                 button
                 onClick={() => {
                     setRoute(index)
                 }}
                 component={this.renderLink}>
                 <ListItemIcon
-                    style={route == index ? newSyles.selectedIcon : null}
+                    style={route === index ? newSyles.selectedIcon : null}
                 >{icon}</ListItemIcon>
                 <ListItemText
                     disableTypography
-                    style={route == index ? newSyles.selectedText : null}
+                    style={route === index ? newSyles.selectedText : null}
                     primary={primary}/>
             </ListItem>
         );
