@@ -7,3 +7,5 @@ var myGithub = 'https://github.com/p32929'
 module.exports = {
     myName, myOccupation, myDetails, myImageLink, myGithub
 }
+
+document.title = myName + " - Portfolio";

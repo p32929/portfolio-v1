@@ -14,16 +14,15 @@ If you don't have them installed, installed them from here: https://nodejs.org/e
 `npm start`
 
 ## Create your own portfolio
-1. To edit the Home section, edit the variables inside `vars/homeItems.js` file.
-2. To edit the Skills section, edit the variables inside `vars/skillItems.js` file.
-3. To edit the Projects section, edit the variables inside `vars/projectItems.js` file.
-4. To edit the Contact section, edit the variables inside `vars/contactItems.js` file.
-5. To edit the Drawer Items, edit the variables inside `vars/drawerItems.js` file.
-6. Inside `public/index.html` change the `title` tag according to your own choise
-7. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
-8. Run this command: `npm run deploy`
-9. Go the the repository settings page > Github Pages > Source and set it to `gh-pages branch`
-9. That's it. Now, you can check your portfolio LIVE version in github pages using `homepage` URL
+1. To edit the Home section, edit the variables inside `src/vars/homeItems.js` file.
+2. To edit the Skills section, edit the variables inside `src/vars/skillItems.js` file.
+3. To edit the Projects section, edit the variables inside `src/vars/projectItems.js` file.
+4. To edit the Contact section, edit the variables inside `src/vars/contactItems.js` file.
+5. To edit the Drawer Items, edit the variables inside `src/vars/drawerItems.js` file.
+6. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
+7. Run this command: `npm run deploy`
+8. Go the the repository settings page > Github Pages > Source and set it to `gh-pages branch`
+9. That's it. Now, you can check your portfolio LIVE version in github pages using `homepage` URL. Github may take a while to update the github page into your `homepage` URL
 
 ## Thanks
 Hope you'll enjoy creating your own portfolio :)
