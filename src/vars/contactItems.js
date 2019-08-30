@@ -34,5 +34,5 @@ export var socialLinks = [
 
 ]
 
-export var bottom1stTest = '';
-export var bottom2ndText = '';
+export var bottom1stTest = 'Thank you';
+export var bottom2ndText = 'For visiting my portfolio. If you want to create your own portfolio using this Portfolio\'s source code, click on the Github icon at the top-right corner';

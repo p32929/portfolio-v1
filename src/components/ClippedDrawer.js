@@ -16,6 +16,7 @@ import SvgIcon from "@material-ui/core/SvgIcon/SvgIcon";
 import ListItemLink from "./sub/ListItemLink";
 import ListItemLinkShorthand from "./sub/ListItemLinkShorthand";
 import ScrollToTop from "./ScrollToTop";
+import {myName, myGithub} from '../vars/homeItems'
 
 const drawerWidth = 240;
 
@@ -78,11 +79,11 @@ function ClippedDrawer(props) {
                     <AppBar position="fixed" className={classes.appBar}>
                         <Toolbar>
                             <Typography variant="h6" color="inherit" noWrap className={classes.grow}>
-                                Fayaz Bin Salam
+                                {myName}
                             </Typography>
 
                             <IconButton
-                                href="https://github.com/p32929"
+                                href={myGithub}
                                 color="inherit">
                                 <SvgIcon>
                                     <path
