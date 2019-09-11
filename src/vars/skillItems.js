@@ -170,6 +170,11 @@ export var frameworks = [
         title: 'Yarn',
         logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg'
     },
+    {
+        title: 'BS4',
+        logo: 'https://funthon.files.wordpress.com/2017/05/bs.png?w=772'
+    },
+
 ]
 
 export var others = [
