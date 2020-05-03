@@ -1,6 +1,8 @@
 ## Portfolio
 My Portfolio - created using ReactJS
 
+I have created another portfolio using ReactJS. Which is also open source. Fork it from here: https://github.com/p32929/p32929.github.io
+
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
 If you don't have them installed, installed them from here: https://nodejs.org/en/download/
