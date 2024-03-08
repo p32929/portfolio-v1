@@ -19,7 +19,7 @@ Sharing with your friends is just one click away from here
 [![linkedin](https://image.flaticon.com/icons/png/32/1409/1409945.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/Portfolio)
 [![whatsapp](https://image.flaticon.com/icons/png/32/733/733585.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/Portfolio)
 
-## All my portfolio:
+## All my portfolio websites:
 
 <a href="https://ibb.co/yhLM7qV"><img src="https://i.ibb.co/q0b4Vpx/Fayaz-Bin-Salam-Portfolio.png" alt="Fayaz-Bin-Salam-Portfolio" border="0" /></a>
 
@@ -31,7 +31,7 @@ V2: https://p32929.github.io/portfolio-v2/ ( Source: https://github.com/p32929/p
 
 <a href="https://ibb.co/R2XJrK0"><img src="https://i.ibb.co/kKLPbT8/310210036-71ea6422-8087-4521-a10e-718e8cf17dd2.png" alt="310210036-71ea6422-8087-4521-a10e-718e8cf17dd2" border="0" /></a>
 
-Current ( V3 ) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
+Current (V3) : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
 
 ## Support
 If you like my works and want to support me/my works, feel free to support or donate. My payment details can be found here: https://p32929.github.io/SendMoney2Me/
