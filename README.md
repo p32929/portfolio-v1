@@ -1,9 +1,10 @@
-## Portfolio
-My Portfolio - created using ReactJS
+# portfolio-v1
 
-Watch live: https://p32929.github.io/Portfolio/
+My first personal portfolio — a single-page developer portfolio built with React and Material-UI, deployed to GitHub Pages. All the content lives in five plain JS files, so you can make it yours in about ten minutes.
 
-I have created another portfolio (V2) using ReactJS. Which is also open source. Fork it from here: https://github.com/p32929/p32929.github.io
+**Live demo:** https://p32929.github.io/portfolio-v1/
+
+Newer iterations, also open source: [V2](https://github.com/p32929/portfolio-v2) · [V3](https://github.com/p32929/p32929.github.io)
 
 ## Prerequisites
 You need to have `NodeJS` and `NPM` installed in your computer.
