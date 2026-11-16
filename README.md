@@ -1,97 +1,56 @@
 # portfolio-v1
 
-My first personal portfolio — a single-page developer portfolio built with React and Material-UI, deployed to GitHub Pages. All the content lives in five plain JS files, so you can make it yours in about ten minutes.
+My first personal portfolio: a single-page developer portfolio made with React and Material-UI, hosted on GitHub Pages. All the content is in five plain JavaScript files, so you can make it your own in about ten minutes, with no design work.
 
-**Live demo:** https://p32929.github.io/portfolio-v1/
+**Live demo:** [p32929.github.io/portfolio-v1](https://p32929.github.io/portfolio-v1/)
 
-Newer iterations, also open source: [V2](https://github.com/p32929/portfolio-v2) · [V3](https://github.com/p32929/p32929.github.io)
+## Features
 
-## Prerequisites
-You need to have `NodeJS` and `NPM` installed in your computer.
-If you don't have them installed, installed them from here: https://nodejs.org/en/download/
+1. **Ready-made sections:** Home, Skills, Projects and Contact, plus a side menu.
+2. **Edit text, not code:** every section reads from its own small file in `src/vars/`.
+3. **Free hosting:** one command puts it on GitHub Pages.
 
-## How to run the project
-1. Fork the repository
-2. Clone your forked repository
-3. Install all the dependencies using this command:
-`npm install`
-4. Run the project using this command:
-`npm start`
+## Run it
 
-## Create your own portfolio
-1. To edit the Home section, edit the variables inside `src/vars/homeItems.js` file.
-2. To edit the Skills section, edit the variables inside `src/vars/skillItems.js` file.
-3. To edit the Projects section, edit the variables inside `src/vars/projectItems.js` file.
-4. To edit the Contact section, edit the variables inside `src/vars/contactItems.js` file.
-5. To edit the Drawer Items, edit the variables inside `src/vars/drawerItems.js` file.
-6. Inside `package.json`, change the value of `homepage` to 'https://your-github-username.github.io/Portfolio/'
-7. Run this command: `npm run deploy`
-8. Go the the repository settings page > Github Pages > Source and set it to `gh-pages branch`
-9. That's it. Now, you can check your portfolio LIVE version in github pages using `homepage` URL. Github may take a while to update the github page into your `homepage` URL
+You need [Node.js](https://nodejs.org/en/download/) (it comes with npm).
 
-## Thanks
-Hope you'll enjoy creating your own portfolio :)
+1. Fork this repository and clone your fork.
+2. Install the packages with `npm install`.
+3. Start it with `npm start`.
+
+## Make it yours
+
+1. Home section: edit `src/vars/homeItems.js`.
+2. Skills section: edit `src/vars/skillItems.js`.
+3. Projects section: edit `src/vars/projectItems.js`.
+4. Contact section: edit `src/vars/contactItems.js`.
+5. Side menu: edit `src/vars/drawerItems.js`.
+6. In `package.json`, change `homepage` to your own address, for example `https://your-github-username.github.io/portfolio-v1`.
+7. Run `npm run deploy`.
+8. On GitHub, open your repository's **Settings**, then **Pages**, and set the source to the `gh-pages` branch.
+
+Your portfolio is now live at the `homepage` address. GitHub can take a few minutes to show the first version.
+
+## My other portfolios
+
+This is the first version. The newer ones are open source too:
+
+1. V1: [p32929.github.io/portfolio-v1](https://p32929.github.io/portfolio-v1/) ([source](https://github.com/p32929/portfolio-v1))
+2. V2: [p32929.github.io/portfolio-v2](https://p32929.github.io/portfolio-v2/) ([source](https://github.com/p32929/portfolio-v2))
+3. V3, the current one: [p32929.github.io](https://p32929.github.io/) ([source](https://github.com/p32929/p32929.github.io))
 
 ## License
 
-MIT License — Copyright (c) 2018 Fayaz Bin Salam. See [LICENSE](LICENSE) for the full text.
-
-## All my portfolio websites:
-Looking for one of my previous portfolio website / source code? Here's the list:
-
-V1: https://p32929.github.io/portfolio-v1/ ( Source: https://github.com/p32929/portfolio-v1 )
-
-V2: https://p32929.github.io/portfolio-v2/ ( Source: https://github.com/p32929/portfolio-v2 )
-
-V3 : https://p32929.github.io/ ( Source: https://github.com/p32929/p32929.github.io )
+MIT License, Copyright (c) 2018 Fayaz Bin Salam. See [LICENSE](LICENSE) for the full text.
 
 ## Contributing
 
-Contributions are warmly welcomed and greatly appreciated! Whether it's a bug fix, new feature, or improvement, your input helps make this project better for everyone.
-
-Before submitting a pull request, please:
-
-1. Create an issue describing the feature or bug fix you'd like to work on
-2. Wait for discussion and approval to ensure alignment with project goals
-3. Fork the repository and create your feature branch
-4. Submit your pull request with a clear description of changes
-
-This approach helps avoid duplicate efforts and ensures smooth collaboration. Thank you for considering contributing!
+Contributions are very welcome, thank you! Before you start on a pull request, please open an issue and tell me what you would like to add or change. That way we can agree on it first, and your time is not spent on something that might not fit. Hope you enjoy making your own portfolio.
 
 ## Share
 
-Sharing this repository with your friends is just one click away from here
-
-[![facebook](https://user-images.githubusercontent.com/6418354/179013321-ac1d1452-0689-493f-9066-940cf2302b6e.png)](https://www.facebook.com/sharer/sharer.php?u=https://github.com/p32929/portfolio-v1/)
-[![twitter](https://user-images.githubusercontent.com/6418354/179013351-7d8d6d1c-4ce2-46ab-bef8-4c4765a1b888.png)](https://twitter.com/intent/tweet?url=https://github.com/p32929/portfolio-v1/)
-[![tumblr](https://user-images.githubusercontent.com/6418354/179013343-3111f55a-3b90-40c7-8487-9777348672b0.png)](https://www.tumblr.com/share?v=3&u=https://github.com/p32929/portfolio-v1/)
-[![pocket](https://user-images.githubusercontent.com/6418354/179013334-b095c45f-becf-49f4-9ee1-5a731a9b1f85.png)](https://getpocket.com/save?url=https://github.com/p32929/portfolio-v1/)
-[![pinterest](https://user-images.githubusercontent.com/6418354/179013331-44cd9206-11b1-4b65-becb-5863b61c828f.png)](https://pinterest.com/pin/create/button/?url=https://github.com/p32929/portfolio-v1/)
-[![reddit](https://user-images.githubusercontent.com/6418354/179013338-7416ae3f-73ba-4522-86e1-1374d7082d22.png)](https://www.reddit.com/submit?url=https://github.com/p32929/portfolio-v1/)
-[![linkedin](https://user-images.githubusercontent.com/6418354/179013327-ca7b7102-1da8-4b1c-858f-1a6e5f21bd70.png)](https://www.linkedin.com/shareArticle?mini=true&url=https://github.com/p32929/portfolio-v1/)
-[![whatsapp](https://user-images.githubusercontent.com/6418354/179013353-f477fa0b-3e6f-4138-a357-c9991b23ff88.png)](https://api.whatsapp.com/send?text=https://github.com/p32929/portfolio-v1/)
-
----
+<a href="https://p32929.github.io/share/?repo=portfolio-v1"><img src="https://p32929.github.io/readme/share.svg" alt="Share this with your friends in just a click" width="420"></a>
 
 ## Support
 
-If this saved you time, you can buy me a coffee — it keeps these projects maintained and free. Other payment options: https://p32929.github.io/SendMoney2MeV1/
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20me%20a%20coffee-%E2%98%95-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black)](https://www.buymeacoffee.com/p32929)
-
-<!-- hire-block -->
-
----
-
-## 💼 Using this at a company?
-
-I do fixed-price delivery work on my own projects. One invoice, one date, no hourly billing:
-
-| | |
-|---|---|
-| **White-label build** — this project rebranded, extended and deployed as yours | **$6,500** · 3 weeks |
-| **Custom app from scratch** on my own stack, signed and auto-updating | **$12,500** · 6 weeks |
-| **Production-hardening sprint** — 72 hours on this project, for your load and your security review | **$999** |
-| **Ongoing capacity** — one project-week of my time reserved every month | **$9,000 / month** |
-
-Full details → **[p32929.github.io/hire](https://p32929.github.io/hire/)** · Email **[fayazdevinbox@uberip.com](mailto:fayazdevinbox@uberip.com)** — scoping and quotes are free and I answer within one business day.
+<a href="https://p32929.github.io/support/"><img src="https://p32929.github.io/readme/support.svg" alt="If you like my works and want to support me, feel free to support" width="420"></a>
